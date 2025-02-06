@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Man - That's Life, Man</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 40px;
+        }
+        .product {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background: #000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #555;
+        }
+        .checkout {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>Life Man - That's Life, Man</header>
+    <div class="container">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="hoodie.jpg" alt="Life Man Hoodie">
+            <h3>Life Man Hoodie</h3>
+            <p>Stylish and comfortable hoodie embracing the ups and downs of life.</p>
+            <a href="checkout.html" class="button">Add to Cart</a>
+        </div>
+        <div class="product">
+            <img src="tshirt.jpg" alt="Life Man T-Shirt">
+            <h3>Life Man T-Shirt</h3>
+            <p>Minimalist and modern streetwear tee with an original logo.</p>
+            <a href="checkout.html" class="button">Add to Cart</a>
+        </div>
+        <h2>Life Man in Action</h2>
+        <div class="product">
+            <img src="ai_man_golf.jpg" alt="AI Man Wearing Life Man Gear Playing Golf">
+            <h3>AI Man Wearing Life Man Gear</h3>
+            <p>A stylish AI-generated male model showcasing the brand while enjoying golf.</p>
+        </div>
+        <div class="product">
+            <img src="ai_woman_golf.jpg" alt="AI Woman Wearing Life Man Gear Playing Golf">
+            <h3>AI Woman Wearing Life Man Gear</h3>
+            <p>An elegant AI-generated female model sporting Life Man gear while on the golf course.</p>
+        </div>
+        <div class="checkout">
+            <h2>Checkout</h2>
+            <p>Review your cart and proceed with your purchase.</p>
+            <a href="checkout.html" class="button">Proceed to Checkout</a>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 Life Man. All rights reserved.
+    </div>
+</body>
+</html>
+
+<!-- Checkout Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Life Man</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            margin: 50px auto;
+            max-width: 500px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            padding: 10px 20px;
+            background: #000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Checkout</h2>
+        <p>Thank you for shopping with Life Man! Complete your purchase below.</p>
+        <a href="#" class="button">Pay Now</a>
+    </div>
+</body>
+</html>
